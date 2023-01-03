@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import ds_proj from "../assets/img/MachineLearningwithPythonmin.png"
+import python_proj from "../assets/img/python_proj.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,62 +11,62 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Web Development",
-      description: "Created a bunch of Websites",
+      title: "Ecommerce Website",
+      description: "A fully functional and responsive ecommerce Clothing website, built using MERN-stack.",
       imgUrl: projImg1,
-      link: 'https://github.com/RoyMustang-Dev/pytorch-zero_To_GANs'
+      link: 'https://github.com/RoyMustang-Dev/crwn'
     },
     {
-      title: "Web Development",
-      description: "Created a bunch of Websites",
+      title: "Portfolio Website(Old)",
+      description: "A fully responsive portfolio website, built using only HTML, CSS and JavaScript.",
+      imgUrl: projImg1,
+      link:"https://github.com/RoyMustang-Dev/Portfolio",
+    },
+    {
+      title: "Portfolio Website(New)",
+      description: "A fully functional and responsive portfolio website, built using ReactJS.",
       imgUrl: projImg1,
       link:"https://github.com/RoyMustang-Dev/pytorch-zero_To_GANs",
     },
     {
-      title: "Web Development",
-      description: "Created a bunch of Websites",
-      imgUrl: projImg1,
-      link:"https://github.com/RoyMustang-Dev/pytorch-zero_To_GANs",
-    },
-    {
       title: "Streamlit Apps",
     description: "Created a bunch of Data Models",
-    imgUrl: projImg2,
+    imgUrl: python_proj,
     link:"https://github.com/RoyMustang-Dev/pytorch-zero_To_GANs",
     },
     {
       title: "Streamlit Apps",
     description: "Created a bunch of Data Models",
-    imgUrl: projImg2,
+    imgUrl: python_proj,
     link:"https://github.com/RoyMustang-Dev/pytorch-zero_To_GANs",
     },
     {
       title: "Streamlit Apps",
     description: "Created a bunch of Data Models",
-    imgUrl: projImg2,
+    imgUrl: python_proj,
     link:"https://github.com/RoyMustang-Dev/pytorch-zero_To_GANs",
     },
     {
       title: "Data Science",
     description: "Some very popular Data Science Projects",
-    imgUrl: projImg3,
+    imgUrl: ds_proj,
     link:"https://github.com/RoyMustang-Dev/pytorch-zero_To_GANs",
     },
     {
       title: "Data Science",
     description: "Some very popular Data Science Projects",
-    imgUrl: projImg3,
+    imgUrl: ds_proj,
     link:"https://github.com/RoyMustang-Dev/pytorch-zero_To_GANs",
     },
     {
       title: "Data Science",
     description: "Some very popular Data Science Projects",
-    imgUrl: projImg3,
+    imgUrl: ds_proj,
     link:"https://github.com/RoyMustang-Dev/pytorch-zero_To_GANs",
     },
   ];
 
-  const projects1 = [
+  const projects3 = [
     {
       title: "Web Development",
       description: "Created a bunch of Websites",
@@ -88,35 +88,35 @@ export const Projects = () => {
   {
     title: "Streamlit Apps",
     description: "Created a bunch of Data Models",
-    imgUrl: projImg2,
+    imgUrl: python_proj,
   },
   {
     title: "Streamlit Apps",
     description: "Created a bunch of Data Models",
-    imgUrl: projImg2,
+    imgUrl: python_proj,
   },
   {
     title: "Streamlit Apps",
     description: "Created a bunch of Data Models",
-    imgUrl: projImg2,
+    imgUrl: python_proj,
   },
   ];
 
-  const projects3 = [
+  const projects1 = [
   {
     title: "Data Science",
     description: "Some very popular Data Science Projects",
-    imgUrl: projImg3,
+    imgUrl: ds_proj,
   },
   {
     title: "Data Science",
     description: "Some very popular Data Science Projects",
-    imgUrl: projImg3,
+    imgUrl: ds_proj,
   },
   {
     title: "Data Science",
     description: "Some very popular Data Science Projects",
-    imgUrl: projImg3,
+    imgUrl: ds_proj,
   },
 ];
 
@@ -137,13 +137,13 @@ export const Projects = () => {
                       <Nav.Link eventKey="main">All</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="first">WebSites</Nav.Link>
+                      <Nav.Link eventKey="first">Data Science</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">Python</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Data Science</Nav.Link>
+                      <Nav.Link eventKey="third">WebSites</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
