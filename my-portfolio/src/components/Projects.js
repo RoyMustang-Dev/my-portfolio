@@ -17,16 +17,16 @@ export const Projects = () => {
       link: 'https://github.com/RoyMustang-Dev/crwn'
     },
     {
-      title: "Portfolio Website(Old)",
+      title: "My Portfolio (Old)",
       description: "A fully responsive portfolio website, built using only HTML, CSS and JavaScript.",
       imgUrl: projImg1,
       link:"https://github.com/RoyMustang-Dev/Portfolio",
     },
     {
-      title: "Portfolio Website(New)",
+      title: "My Portfolio (New)",
       description: "A fully functional and responsive portfolio website, built using ReactJS.",
       imgUrl: projImg1,
-      link:"https://github.com/RoyMustang-Dev/pytorch-zero_To_GANs",
+      link:"https://github.com/RoyMustang-Dev/my-portfolio/tree/main/my-portfolio",
     },
     {
       title: "Streamlit Apps",
