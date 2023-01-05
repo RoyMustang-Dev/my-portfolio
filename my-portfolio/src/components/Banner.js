@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { ArrowRightCircle} from 'react-bootstrap-icons';
+
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -58,6 +60,9 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Aditya `}</h1>
                 <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Data Analyst", "Data Scientist", "ML Engineer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>A certified Data Scientist currently working as a Data Analyst for Edureka, with strong willingness to exhibit my proficiency in Analytical tools, Statistics and Machine Learning/Deep Learning Modeling in a professional environment.</p>
+                  <form method="get" action="https://drive.google.com/file/d/1rJbLxByhS4nLSdZ6ReCQYfC50WtRYkPc/?export=download" target="_blank">
+                    <button >Download Resume<ArrowRightCircle size={25} /></button>
+                  </form>
               </div>}
             </TrackVisibility>
           </Col>
