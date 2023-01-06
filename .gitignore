@@ -10,6 +10,7 @@
 
 # production
 /build
+/chatbot-Enigma/server/node_modules
 
 # misc
 .DS_Store
